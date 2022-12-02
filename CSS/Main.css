@@ -1,0 +1,31 @@
+body{
+    background-image: url("../IMG/BC.jpg");
+    background-size: cover;
+}
+
+#TituloPareja{
+    font-family: 'Great Vibes', cursive;
+}
+
+
+.responsive-img{
+    margin-top: 10%;
+}
+
+#Dia{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 15%;
+}
+
+.ADDR{
+    font-family: 'Tiro Tamil', cursive;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
