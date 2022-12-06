@@ -29,8 +29,8 @@ body{
 
 .ADDR{
     font-family: 'Tiro Tamil', cursive;
-    margin: 0px;
-    margin-top: 10%;
+    /* margin: 0px;
+    margin-top: 10%; */
 }
 
 #map {
