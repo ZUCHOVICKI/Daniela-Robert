@@ -1,8 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    options = {};
-    var instances = M.Sidenav.init(elems, options);
-});
 
 function initMap() {
     // The location of Quinta Mompani 20.691457,-100.5195128

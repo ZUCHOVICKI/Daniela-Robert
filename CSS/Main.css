@@ -1,26 +1,36 @@
 body{
-    background-image: url("../IMG/BC.jpg");
+    background-image: url("../IMG/BC.jpeg");
     background-size: cover;
+}
+#MainImg{
+ /* width: 70%;
+ margin-left: 15%; */
+ margin-top: 10px;
+ /* height: 50vh; */
 }
 
 #TituloPareja{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Great Vibes', cursive;
-}
-
-
-.responsive-img{
     margin-top: 10%;
 }
+
+
+
 
 #Dia{
     font-size: 50px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
-    margin-top: 15%;
+    margin: 0px;
+    margin-top: 10%;
 }
 
 .ADDR{
     font-family: 'Tiro Tamil', cursive;
+    margin: 0px;
+    margin-top: 10%;
 }
 
 #map {
@@ -29,3 +39,8 @@ body{
     width: 100%;
     /* The width is the width of the web page */
   }
+
+
+.material-icons{
+    color: black;
+}
