@@ -44,3 +44,7 @@ body{
 .material-icons{
     color: black;
 }
+
+.opacity{
+    opacity: .75;
+}
