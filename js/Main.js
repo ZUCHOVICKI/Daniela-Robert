@@ -22,5 +22,26 @@ function initMap() {
     var options = {}
     var instances = M.Carousel.init(elems, {
       fullWidth: true,
+      duration:200,
       indicators: true});
+
+      
+      
+      
+        
+    
+
+      // setInterval(myFunction, 2000);
   });
+
+  const nextSlide=()=>{
+    var elem = document.querySelector('.carousel')
+    
+    var instance = M.Carousel.getInstance(elem);
+    if(instance.pressed==false){
+
+      instance.next();
+    }
+  }
+
+  setInterval(nextSlide,5000);
